@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap');
+@import "tailwindcss";
+*{
+    margin: 0;
+    padding: 0;
+}
+ h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+} 
+h1{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.price_wrap{
+    margin-top: 26px;
+}
+body{
+    padding: 30px;
+    font-family: "Libre Caslon Condensed", serif;
+}
+.card{
+    padding: 20px;
+}
+.img_inner{
+    margin-bottom: 20px;
+}
+.card_wrap{
+    padding: 10px;
+}
+#btn_wrap{
+    padding: 18px;
+}
+p{
+    font-family: cursive;
+}
+.button{
+    padding: 5px;
+    margin-top: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+input{
+    padding: 6px;
+    border-radius: 12px;
+    margin-top: 12px;
+}
