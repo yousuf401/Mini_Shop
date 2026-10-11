@@ -45,3 +45,9 @@ input{
     border-radius: 12px;
     margin-top: 12px;
 }
+.modal-box{
+    padding: 20px;
+}
+.modal-close{
+    padding: 8px 10px;
+}

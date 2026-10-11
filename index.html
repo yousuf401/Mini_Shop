@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./assets/css/output.css">
     <title>English Janala</title>
 </head>
@@ -11,8 +13,30 @@
         Mini Shop
   </h2>
   <p class="text-[8px] text-[#AEB3B0] text-center">your reguler partner</p>
-  <div id="search"><input type="text" class="w-full bg-gray-300 text-md font-bold" placeholder="Search here..."></div>
+  <div id="search"><input type="text" class="w-full bg-gray-300 text-md font-bold" placeholder="Search here by title..."></div>
+  <div class="text-center" id="loading">
+    <span class="loading loading-ball loading-xs"></span>
+<span class="loading loading-ball loading-sm"></span>
+<span class="loading loading-ball loading-md"></span>
+<span class="loading loading-ball loading-lg"></span>
+<span class="loading loading-ball loading-xl"></span>
+   </div>
   <div id="btn_wrap" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4"></div>
+
+  <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <h3 class="text-lg font-bold">Brand</h3>
+    <p id="brandName" class="py-4"></p>
+    <p class="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
+    <p class="py-4">Press ESC key or click the button below to close</p>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class=" modal-close">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
 </body>
 <script src="./assets/js/script.js"></script>
 </html>
